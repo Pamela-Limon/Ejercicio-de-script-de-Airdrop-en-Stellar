@@ -40,11 +40,12 @@ cd stellar-airdrop
 Instalar dependencias:
 
 bashnpm install @stellar/stellar-sdk
+
 📝 Uso
+
 Paso 1: Generar Cuentas Destino
 bashnode generar-5-cuentas.js
 ```
-
 Este script generará 5 pares de llaves (pública/secreta) válidas para usar como destinatarios.
 
 **Salida esperada:**
@@ -57,8 +58,11 @@ Este script generará 5 pares de llaves (pública/secreta) válidas para usar co
 --- Cuenta 1 ---
 Pública:  GBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Secreta:  SBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 Paso 2: Configurar el Script de Airdrop
+
 Abre airdrop-crear-cuentas.js y configura:
+
 javascript// Tu cuenta que enviará los fondos
 const CLAVE_SECRETA_ORIGEN = 'TU_CLAVE_SECRETA_AQUI';
 const CLAVE_PUBLICA_ORIGEN = 'TU_CLAVE_PUBLICA_AQUI';
