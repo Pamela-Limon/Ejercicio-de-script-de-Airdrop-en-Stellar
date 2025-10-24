@@ -80,11 +80,11 @@ const CLAVE_PUBLICA_ORIGEN = 'TU_CLAVE_PUBLICA_AQUI';
 
 // Cuentas destino generadas en el paso anterior
 const destinatarios = [
-  'GBXXXX...', // Cuenta 1
-  'GCXXXX...', // Cuenta 2
-  'GDXXXX...', // Cuenta 3
-  'GEXXXX...', // Cuenta 4
-  'GFXXXX...'  // Cuenta 5
+'GB..... '// Cuenta 1
+'GC..... ', // Cuenta 2
+'GB..... '', // Cuenta 3
+'GU..... ', // Cuenta 4
+'GE...'  // Cuenta 5
 ];
 ```
 
